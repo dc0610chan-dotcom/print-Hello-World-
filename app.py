@@ -70,7 +70,7 @@ education = "Educational Services"
 health = "Health Care and Social Assistance"
 arts = "Arts, Entertainment and Recreation"
 food = "Accommodation and Food Services"
-public = "Public Administration"
+public = "Public Administration"ng Public Administration)
 other = "Other Services (excluding Public Administration)"
 
 
@@ -104,24 +104,24 @@ q4 = st.radio(
 
     #Question 5
 q5 = st.radio(
-        "Which of these sounds like your ideal weekend?", 
-        ("Attending a concert, art exhibit, or performance", "Hosting or attending a dinner / party", "Working on a personal project or hobby",
-          "Going on a short trip or exploring your town", "Volunteering or helping a local cause", "Staying in and relaxing")
-                )
+    "Which of these sounds like your ideal weekend?", 
+    ("Attending a concert, art exhibit, or performance", "Hosting or attending a dinner / party", "Working on a personal project or hobby",
+    "Going on a short trip or exploring your town", "Volunteering or helping a local cause", "Staying in and relaxing")
+            )
     
-    #Question 6
+#Question 6
 q6 = st.radio(
-        "What’s your ideal work setting?", 
-        ("A busy office with clear tasks and schedules", "A creative studio or workshop", "Outdoors or in nature", "Flexible coworking spaces / cafes / changing environments", 
-         "A calm, quiet room with minimal interruptions", "High-energy, social, hands-on environment")
-                )
+    "What’s your ideal work setting?", 
+    ("A busy office with clear tasks and schedules", "A creative studio or workshop", "Outdoors or in nature", "Flexible coworking spaces / cafes / changing environments", 
+     "A calm, quiet room with minimal interruptions", "High-energy, social, hands-on environment")
+            )
     
-    #Question 7 
+#Question 7 
 q7 = st.radio(
-        "What is your approach to tasks?", 
-        ("Follow a clear step-by-step plan", "Work independently and creatively", "Collaborate and brainstorm with others", "Jump in and figure things out as you go", 
-         "Focus on precision and details", "Focus on people’s needs and feelings")
-                )
+    "What is your approach to tasks?", 
+    ("Follow a clear step-by-step plan", "Work independently and creatively", "Collaborate and brainstorm with others", "Jump in and figure things out as you go", 
+    "Focus on precision and details", "Focus on people’s needs and feelings")
+            )
     
     #Question 8
 q8 = st.radio(
@@ -174,7 +174,7 @@ q14 = st.radio(
     
     #Question 15
 q15 = st.radio(
-         "When faced with a new challenge, what’s your first instinct?", 
+         "When faced with a new challenge, what's your first instinct?", 
          ("Analyze the data and look for patterns", "Brainstorm creative solutions, even unusual ones", "Ask others for input and collaborate", 
           "Tackle it hands-on and learn by doing", "Follow step-by-step instructions carefully", "Take time to observe and reflect before acting")
                 )
