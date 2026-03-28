@@ -34,7 +34,7 @@ if "scores" not in st.session_state:
         "Construction": 0,
         "Manufacturing": 0, 
         "Wholesale Trade": 0,
-        "Retail Trade" 
+        "Retail Trade": 0,
         "Transportation and Warehousing": 0,
         "Information and Cultural Industries": 0,
         "Finance and Insurance": 0,
@@ -44,10 +44,8 @@ if "scores" not in st.session_state:
         "Administrative and Support, Waste Management and Remediation Services": 0,
         "Educational Services": 0,
         "Health Care and Social Assistance": 0,
-        "Arts, Entertainment and Recreation": 0,
-        "Accommodation and food services": 0,
-        "Public AdministratFon": 0
-        "Other Services (excluding Public Administration)": 0,    }
+        "Arts, Entertainment and Recreation": 0,"Accommodation and food services": 0,
+        "Public AdministratFon" Services: 0,        "        "Other Services (excluding Public Administration)": 0,    }
 i 0    
 #urban dictionary type shit
 
@@ -125,94 +123,94 @@ q7 = st.radio(
     
     #Question 8
 q8 = st.radio(
-        "What is your preferred pace of work?",
-        ("Fast, dynamic, and changing constantly", "Steady but challenging", "Slow, deliberate, and structured", "Flexible, adaptable depending on the day", "Energetic and social", 
-         "Calm and focused")
-                )
+    "What is your preferred pace of work?",
+    ("Fast, dynamic, and changing constantly", "Steady but challenging", "Slow, deliberate, and structured", "Flexible, adaptable depending on the day", "Energetic and social", 
+    "Calm and focused")
+            )
     
     #Question 9
 q9 = st.radio(
-        "What is your preferred level of supervision?", 
-        ("Completely independently", "Mostly independently, occasional check-ins", "In a team with shared responsibility", "With clear instructions and supervision", 
-         "Rotating between teamwork and solo work", "Being guided by a mentor or leader")
-                )
+    "What is your preferred level of supervision?", 
+    ("Completely independently", "Mostly independently, occasional check-ins", "In a team with shared responsibility", "With clear instructions and supervision", 
+    "Rotating between teamwork and solo work", "Being guided by a mentor or leader")
+            )
     
     #Question 10
 q10 = st.radio(
-        "When do you do your best work?", 
-        ("Early in the morning, when everything is calm", "Late at night, when I'm inspired", "In short bursts with lots of variety", "When I’m actively moving or hands-on", 
-         "When collaborating with others", "When I can experiment and try new ideas")
-                    )
+    "When do you do your best work?", 
+    ("Early in the morning, when everything is calm", "Late at night, when I'm inspired", "In short bursts with lots of variety", "When I’m actively moving or hands-on", 
+    "When collaborating with others", "When I can experiment and try new ideas")
+            )
     
-    #Question 11
+#Question 11
 q11 = st.radio(
-        "How do you usually recharge after a busy day?", 
-        ("Spending time with close friends or family", "Being alone reading, gaming, or watching media", "Going for a walk or doing something active", "Trying a new hobby or exploring something new", 
-         "Volunteering or helping someone", "Organizing or planning your space")
-                    )
+    "How do you usually recharge after a busy day?", 
+    ("Spending time with close friends or family", "Being alone reading, gaming, or watching media", "Going for a walk or doing something active", "Trying a new hobby or exploring something new", 
+    "Volunteering or helping someone", "Organizing or planning your space")
+            )
     
-    #Question 12
+#Question 12
 q12 = st.radio(
-        "In a social gathering, which describes you best?", 
-        ("I thrive in large groups and enjoy meeting new people", "I prefer small groups of close friends", "I like being around people but also need breaks alone",
-         "I mostly observe rather than actively participate", "I avoid social gatherings whenever possible", "I adapt easily to any size or type of group")
-                )
+    "In a social gathering, which describes you best?", 
+    ("I thrive in large groups and enjoy meeting new people", "I prefer small groups of close friends", "I like being around people but also need breaks alone",
+    "I mostly observe rather than actively participate", "I avoid social gatherings whenever possible", "I adapt easily to any size or type of group")
+            )
     
     #Queston 13
 q13 = st.radio(
-         "How do you handle energy demands during a busy week?", 
-         ("I’m energized by activity and social interaction", "I manage energy with planned breaks", "I focus best when calm and consistent", "I like alternating high-energy bursts with downtime", 
-          "I prefer low-energy, predictable routines", "I adapt my energy to whatever the day demands")
-                )
+    "How do you handle energy demands during a busy week?", 
+    ("I’m energized by activity and social interaction", "I manage energy with planned breaks", "I focus best when calm and consistent", "I like alternating high-energy bursts with downtime", 
+    "I prefer low-energy, predictable routines", "I adapt my energy to whatever the day demands")
+            )
     
     #Question 14
 q14 = st.radio(
-         "When exploring new experiences, which sounds most like you?", 
-         ("I dive in headfirst and love variety", "I prefer to try a few new things at a time", "I stick to what I know", "I plan new experiences carefully before doing them", 
-          "I like spontaneous adventures but also enjoy downtime", "I mostly observe new experiences rather than participate")
-                )
+    "When exploring new experiences, which sounds most like you?", 
+    ("I dive in headfirst and love variety", "I prefer to try a few new things at a time", "I stick to what I know", "I plan new experiences carefully before doing them", 
+    "I like spontaneous adventures but also enjoy downtime", "I mostly observe new experiences rather than participate")
+            )
     
     #Question 15
 q15 = st.radio(
-         "When faced with a new challenge, what's your first instinct?", 
-         ("Analyze the data and look for patterns", "Brainstorm creative solutions, even unusual ones", "Ask others for input and collaborate", 
-          "Tackle it hands-on and learn by doing", "Follow step-by-step instructions carefully", "Take time to observe and reflect before acting")
-                )
+    "When faced with a new challenge, what's your first instinct?", 
+    ("Analyze the data and look for patterns", "Brainstorm creative solutions, even unusual ones", "Ask others for input and collaborate", 
+    "Tackle it hands-on and learn by doing", "Follow step-by-step instructions carefully", "Take time to observe and reflect before acting")
+            )
 
    #Question 16
 q16 = st.radio(
-        "What scares you most about trying something new?",
-        ("Failing and looking incompetent", "Not knowing where to start", "That it might be boring or repetitive", "It will be physically demanding", 
-        "Feeling socially awkward or judged", "Making a mistake that affects others")
-                )
+    "What scares you most about trying something new?",
+    ("Failing and looking incompetent", "Not knowing where to start", "That it might be boring or repetitive", "It will be physically demanding", 
+    "Feeling socially awkward or judged", "Making a mistake that affects others")
+            )
     
     #Question 17
 q17 = st.radio(
-         "What excites you most about trying something new?", 
-         ("Solving a problem or overcoming a challenge", "Learning something new and expanding skills", "Being creative and trying something original", 
-          "Meeting or working with new people", "Getting hands-on experience", "Exploring the unknown or unexpected") 
-                 )
+    "What excites you most about trying something new?", 
+    ("Solving a problem or overcoming a challenge", "Learning something new and expanding skills", "Being creative and trying something original", 
+    "Meeting or working with new people", "Getting hands-on experience", "Exploring the unknown or unexpected") 
+            )
     
     #Question 18
 q18 = st.radio(
-         "Which of these motivates you most in your career?", 
-         ("Making a positive difference in other people’s lives", "Achieving financial success", "Gaining recognition or fame", 
-          "Creating stability for yourself and loved ones", "Exploring new ideas and creative possibilities", "Building a family or close personal relationships alongside work")
-                    )
+    "Which of these motivates you most in your career?", 
+    ("Making a positive difference in other people’s lives", "Achieving financial success", "Gaining recognition or fame", 
+    "Creating stability for yourself and loved ones", "Exploring new ideas and creative possibilities", "Building a family or close personal relationships alongside work")
+                )
 
     #Question 19
 q19 = st.radio(
-         "Which of these outcomes would make you feel most fulfilled?", 
-         ("Helping or mentoring others", "Earning wealth or material success", "Becoming well-known or influential", "Feeling secure and stable in your life", 
-          "Making something new, original, or impactful", "Building strong relationships or a family")
-                )
+    "Which of these outcomes would make you feel most fulfilled?", 
+    ("Helping or mentoring others", "Earning wealth or material success", "Becoming well-known or influential", "Feeling secure and stable in your life", 
+    "Making something new, original, or impactful", "Building strong relationships or a family")
+            )
 
     #Question 20
 q20 = st.radio(
-         "Which of these matters most to you in your work/life balance?", 
-         ("Helping others and contributing to society", "Financial reward and material comfort", "Fame, recognition, or prestige", "Security and stability", 
-          "Freedom to explore new opportunities", "Family, friends, and personal relationships")
-                )
+    "Which role sounds most appealing to you?", 
+    ("Leading a team, making big decisions, and being responsible for overall success", "Creating ideas, content, or experiences that others engage with", "Helping, supporting, or guiding people in meaningful ways", 
+     "Building, fixing, or working with physical systems and environments", "Organizing operations, keeping things running smoothly, and handling logistics", "Working independently, taking risks, or pursuing opportunities for personal gain")
+            )
 
     
     
@@ -418,7 +416,7 @@ elif page == "Creators":
     st.title("Meet the Team")
     st.markdown("""
     - **Mikaela** – Stuff (Year 1 Computer Science Student)
-    - **Davin** – Leader and more stuff (Year 1 Computer Science Student)
+    - **Davin** – Hi there. My name is Davin, I was originally studying Business administration, now switching over to computer science at Wilfrid University. After discovering what I enjoy and see a future of me doing it in my future, I decided to change, this all happened after i got into university. This is why we created “X”, because high schools like me didn't know what they should go into in post secondary. This tool helps students discover what career they should go into based on interest before committing and spending a lot of money going to university. 
     - **Joshua** – Other stuff (Year 1 Computer Science Student)
     
     This team built this website to give students a reflective, interactive space to explore life choices.
