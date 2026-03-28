@@ -848,12 +848,6 @@ elif page == "Career Quiz":
 
 
 
-
-
-
-
-
-
     #writing anonymous messages page
 
 
