@@ -1,4 +1,5 @@
 import streamlit as st
+
 #stuff don't touch
 st.set_page_config(page_title="Quiz", layout="wide")
 
@@ -28,11 +29,6 @@ st.markdown("""
         <a href="/Carrer_Quiz" target="_self"> Career Quiz </a>
     </div>
 """, unsafe_allow_html=True)
-
-
-
-
-
 
 #QUIZ STARTS HERE!!
 st.title("Carrer Quiz")
