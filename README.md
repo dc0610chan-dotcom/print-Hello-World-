@@ -10,6 +10,7 @@ How to run/install it + Setup instructions (dependencies, environment variables,
 
    
 Any team member names/contribution:
+
 Mikaela Fowler: Original idea, back-end coder, and morale booster
 Davin Chan: Collaborator, coder, and morale booster
 Joshua Ibiezugbe: Front-end coder and morale booster
