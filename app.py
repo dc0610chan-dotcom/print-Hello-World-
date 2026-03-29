@@ -843,21 +843,7 @@ elif page == "Career Quiz":
     st.write(f"2. {top2_name} (Score: {top2_value})")
     st.write(f"3. {top3_name} (Score: {top3_value})")
 
-
-
-
-
-
     #writing anonymous messages page
-
-
-
-
-
-
-
-
-
 
     st.title("Writing on the Wall")
     st.markdown("Leave anonymous messages for other students. Messages are moderated for language.")
